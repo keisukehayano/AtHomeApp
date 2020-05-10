@@ -1,0 +1,5 @@
+<h1>マイページ</h1>
+<%= @current_user.name %>
+
+
+<%= image_tag @current_user.display_image if @current_user.user_image.attached? %>
